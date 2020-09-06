@@ -1,6 +1,6 @@
 # IAMDB
 
-Free, high-latency, low-capacity cloud storage.
+Free, high-latency, low-capacity cloud storage on AWS IAM.
 
 ```typescript
 const db = new IAMDB();
@@ -15,7 +15,7 @@ await db.printUsage();
 
 ## How it works
 
-AWS IAM is a free identity and access management service provided by Amazon Web Services.
+AWS IAM is a free identity and access management service provided by Amazon Web Services. Let's store data there.
 
 IAM has desireable qualities that make it a great candidate to store data:
 
