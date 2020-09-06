@@ -24,7 +24,7 @@ IAM has desireable qualities that make it a great candidate to store data:
 
 IAM allows data to be stored in several places. This library takes advantage of bytes that can be stored in policies. Additional space, though small, is available elsewhere, such as usernames, trust policies, etc.
 
-With minimal configuration, there is close to 56,500,000 bytes of storage space.
+With minimal configuration, there is close to 56,500,000 bytes of storage space. Specificially, 5,000 unique keys, with values smaller than 11,300 bytes.
 
 ## Installation
 
