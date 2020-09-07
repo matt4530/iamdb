@@ -51,9 +51,6 @@ export class IAMDB {
       return null
     }
   }
-  list(type: string): string[] {
-    return [];
-  }
   async set(key: string, entry: IAMDBEntry): Promise<void> {
 
     // split tactic: Use first chunk of bytes to store in inline
