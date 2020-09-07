@@ -17,7 +17,7 @@ await db.printUsage();
 
 AWS IAM is a free identity and access management service provided by Amazon Web Services. Let's store data there.
 
-IAM has desireable qualities that make it a great candidate to store data:
+IAM has desirable qualities that make it a great candidate to store data:
 
 - free
 - no rate-limits that I could find
